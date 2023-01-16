@@ -1,18 +1,23 @@
 
 #particles-js{
     width: 100%;
-    height: 110vh;
+    height: 105vh;
     background-image:linear-gradient(rgba(0 ,0,0,0.5),rgba(0,0,0,0.9)), url("background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Roboto', 'Arial', sans-serif;
+
 }
 .nav-bar{
     position: fixed;
     width: 100%;
     z-index: 3;
+
+}
+.navbar-toggler{
+    margin-right: 50px;
 }
 .bg-light{
     background-color: rgba(0, 0, 0,0.6) !important;
@@ -112,3 +117,59 @@
     width: 100%;
     background-color: rgb(47, 47, 47);
 }
+/*.col-md-12{*/
+/*    background-color: dodgerblue;*/
+/*}*/
+.home-container{
+   width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-family: sans-serif;
+
+}
+.name{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+#first-name{
+    /*background: linear-gradient(to bottom left, #ff66ff 0%, #6600ff 100%);*/
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    border-radius: 10px;
+
+}
+#short-description{
+
+    font-size: 20px;
+}
+.view-cv{
+    font-size: 20px;
+    padding: 15px 30px;
+    border: 2px solid white;
+    border-radius: 50px;
+
+}
+.astroman{
+    width: 20%;
+    position: absolute;
+    right: 12%;
+    top: 50%;
+    animation: astromanAnimate 4s linear infinite;
+}
+@keyframes astromanAnimate {
+    50%{
+        right: 60px;
+        top: 55%;
+
+    }
+}
+/*------------------------
+--------------------------about--------------
+                               ---------------*/
