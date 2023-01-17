@@ -14,6 +14,7 @@
     position: fixed;
     width: 100%;
     z-index: 3;
+    font-family: monospace;
 
 }
 .navbar-toggler{
@@ -129,10 +130,15 @@
     justify-content: center;
 
     color: white;
-    font-family: sans-serif;
+    font-family: monospace;
 
 }
-.name{
+.heading{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+}
+#multi-text{
     font-size: 40px;
     color: #ffffff;
     font-weight: bold;
@@ -140,7 +146,7 @@
 }
 #first-name{
     /*background: linear-gradient(to bottom left, #ff66ff 0%, #6600ff 100%);*/
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.47);
     color: black;
     border-radius: 10px;
 
@@ -154,8 +160,13 @@
     padding: 15px 30px;
     border: 2px solid white;
     border-radius: 50px;
+    text-decoration: none;
+    color: inherit;
 
-}
+}.view-cv:hover{
+
+    color: white;
+ }
 .astroman{
     width: 20%;
     position: absolute;
@@ -167,7 +178,7 @@
     50%{
         right: 60px;
         top: 55%;
-
+        /*width: 15%;*/
     }
 }
 /*------------------------
