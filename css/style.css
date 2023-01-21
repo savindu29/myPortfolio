@@ -195,7 +195,7 @@
 /*------------------------
 --------------------------about--------------
                                ---------------*/
-#aboutme-heading,#production-heading{
+#aboutme-heading,#project-heading{
     background-color: rgba(0, 0, 0, 0.65);
     padding: 7px 12px;
     border-radius: 10px;
@@ -269,9 +269,12 @@
 
 @media screen and (max-width: 767px){
 
-    .heading{
+    .heading,.sub-heading{
         font-size: 20px;
 
+    }
+    #aboutme-heading,#education-heading,#project-heading{
+        font-size: 25px;
     }
     #multi-text{
         font-size: 20px;
@@ -321,6 +324,26 @@
     .description-1 {
         font-size: 13px;
         padding: 10px 15px;
+    }
+    .card-row{
+        padding: 40px 0px;
+    }
+
+}
+@media screen and (max-width: 992px){
+    .heading,.sub-heading{
+        font-size: 20px;
+
+    }
+    #aboutme-heading{
+        font-size: 25px;
+    }
+    .description-1 {
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+    .card-row{
+        padding: 40px 150px;
     }
 }
 

@@ -5,9 +5,10 @@
 .project-heading{
     display: flex;
     justify-content: center;
+
 }
 .card-row{
-    padding: 0px 0px;
+    padding: 40px 0px;
     display: flex;
     justify-content: center;
 
@@ -26,12 +27,7 @@
 .view-none{
     display: none;
 }
-@media(min-width:992px) {
-   .card-row{
-       padding: 40px 150px;
-   }
 
-}
 .product-btn{
     padding: 3px 6px!important;
     font-size: 15px!important;
