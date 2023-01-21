@@ -8,7 +8,6 @@
 
 }
 .card-row{
-    padding: 40px 0px;
     display: flex;
     justify-content: center;
 
@@ -17,7 +16,7 @@
     margin-bottom: 15px;
 }
 .project-container{
-
+    margin: 40px 120px;
 }
 .card-img-top{
     height: 150px;
@@ -34,4 +33,9 @@
 }
 .technology-icon{
     width: 50px!important;
+}
+@media screen and (max-width: 962px){
+    .project-container{
+        margin: 40px 30px;
+    }
 }

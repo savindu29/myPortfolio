@@ -325,9 +325,7 @@
         font-size: 13px;
         padding: 10px 15px;
     }
-    .card-row{
-        padding: 40px 0px;
-    }
+
 
 }
 @media screen and (max-width: 992px){
@@ -341,9 +339,6 @@
     .description-1 {
         font-size: 15px;
         padding: 10px 15px;
-    }
-    .card-row{
-        padding: 40px 150px;
     }
 }
 
