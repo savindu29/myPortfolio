@@ -125,9 +125,13 @@
 
 }
 .contact{
-    height: 110vh;
+    height: auto;
     width: 100%;
-    background-color: rgb(47, 47, 47);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.81), rgba(0, 0, 0, 0.86)), url("background.jpg");
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 /*.col-md-12{*/
 /*    background-color: dodgerblue;*/

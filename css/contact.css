@@ -1,0 +1,40 @@
+#contact{
+    color: white;
+    padding: 30px 40px;
+
+}
+.form-control,.form-control:focus{
+    background-color: transparent;
+    color: white;
+}
+.contact-form{
+    width:70%;
+
+}
+.contact-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-rows{
+    margin-bottom: 20px;
+}
+.contact-heading {
+    padding-bottom: 50px;
+
+}
+
+.footer {
+
+}
+.personal-details{
+    width: 80%;
+    padding-left: 100px;
+}
+.personal-details>div{
+    margin-bottom: 30px;
+}
+.contact-icons{
+    width: 50px;
+}
