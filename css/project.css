@@ -36,6 +36,9 @@
 }
 @media screen and (max-width: 962px){
     .project-container{
-        margin: 40px 30px;
+        margin: 30px 0;
+    }
+    .projects{
+        padding: 20px 12px;
     }
 }
