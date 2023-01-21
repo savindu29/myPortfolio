@@ -6,8 +6,10 @@
 
 }
 .section-heading{
-    padding: 50px ;
+    padding: 30px 0 20px 0  ;
     color: white;
+    font-size: 35px;
+
 }
 .timeline-heading>h4{
     color: white!important;
@@ -144,6 +146,12 @@ margin-top: 30px;
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
     margin-bottom: 0;
+}
+#education-heading{
+    background-color: rgba(255, 255, 255, 0.47);
+    color: black;
+    border-radius: 10px;
+    padding: 7px 12px;
 }
 
 @media(min-width:768px) {
