@@ -309,7 +309,12 @@
 }
 @media screen and (max-width: 680px){
     .astroman{
-        display: none;
+        width :40%;
+        animation: none;
+        position: absolute;
+       margin-top: 60%;
+        right: 0;
+
     }
     .description-1 {
         font-size: 13px;
