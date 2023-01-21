@@ -167,7 +167,6 @@
 
 }
 #short-description{
-
     font-size: 20px;
 }
 .view-cv{
@@ -355,10 +354,14 @@
         right: 0;
 
     }
+    #short-description{
+        font-size: 15px;
+    }
     .img-my{
         width: 100%;
     }
     .description-1 {
         font-size: 13px;
     }
+
 }
