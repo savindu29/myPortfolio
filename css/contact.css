@@ -1,6 +1,6 @@
 #contact{
     color: white;
-    padding: 30px 40px;
+    padding: 30px 40px ;
 
 }
 .form-control,.form-control:focus{
@@ -9,14 +9,18 @@
 }
 .contact-form{
     width:70%;
+    background-color: rgba(162, 162, 162, 0.41);
+    padding:  20px 50px 50px 50px;
+    border-radius: 20px;
 
 }
-.contact-right{
+.contact-right,.contact-left{
     display: flex;
     justify-content: center;
-    align-items: center;
+
 
 }
+
 .form-rows{
     margin-bottom: 20px;
 }
@@ -30,7 +34,18 @@
 }
 .personal-details{
     width: 80%;
-    padding-left: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(162, 162, 162, 0.41);
+    padding:  20px 50px 50px 50px;
+    border-radius: 20px;
+
+}
+.contact-heading>h1>span{
+    background-color: rgba(255, 255, 255, 0.47);
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: black;
 }
 .personal-details>div{
     margin-bottom: 30px;
@@ -44,13 +59,13 @@
     }
     .personal-details{
 
-        padding-left: 40px;
+
     }
     .personal-details>div{
         margin-bottom: 15px;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 880px){
     .form-rows{
         margin-bottom: 10px;
     }
@@ -62,5 +77,20 @@
     }
     .personal-details>div{
         margin-bottom: 15px;
+    }
+    .personal-details{
+        width: 90%;
+        padding: 5px 0;
+        border-radius: 10px;
+      margin-bottom: 15px;
+
+    }
+    #contact{
+
+        padding: 20px 10px;
+
+    }
+    .contact-form{
+        width:90%;
     }
 }
