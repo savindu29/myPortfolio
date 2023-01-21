@@ -38,6 +38,9 @@
     border: 1px solid black;
 
 }
+.view-none{
+    display: none;
+}
 @media(min-width:992px) {
    .card-row{
        padding: 40px 150px;
