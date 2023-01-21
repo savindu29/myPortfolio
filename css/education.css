@@ -17,16 +17,16 @@
 }
 .text-muted {
     color: #adadad !important;
-    font-size: 12px;
+    font-size: 13px;
 
 }
 .btn-view-certificate-outer{
-    margin-top: 12px;
-    margin-bottom: 18px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 .btn-view-certificate-inner{
 
-    font-size: 11px;
+    font-size: 12px;
     padding: 6px 10px;
     border: 2px solid white;
     border-radius: 50px;
