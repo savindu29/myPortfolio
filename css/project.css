@@ -7,10 +7,13 @@
     justify-content: center;
 }
 .card-row{
-    padding: 50px 150px;
+    padding: 0px 10px;
     display: flex;
     justify-content: center;
 
+}
+.card{
+    margin-bottom: 15px;
 }
 .project-container{
 
@@ -33,5 +36,11 @@
     color: #000000;
     transition: 0.5s;
     border: 1px solid black;
+
+}
+@media(min-width:992px) {
+   .card-row{
+       padding: 40px 150px;
+   }
 
 }
