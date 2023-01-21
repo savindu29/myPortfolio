@@ -279,7 +279,7 @@
         padding: 7px 15px;
     }
     .img-my{
-        width: 100%;
+        width: 60%;
     }
 
     .about{
@@ -303,18 +303,30 @@
 
 
     }
+    .astroman{
+        width :30%;
+
+        position: absolute;
+        margin-top: 10%;
+        right: 0;
+
+    }
     .description-1 {
         font-size: 13px;
     }
 }
-@media screen and (max-width: 680px){
+
+@media screen and (max-width: 430px){
     .astroman{
         width :40%;
         animation: none;
         position: absolute;
-       margin-top: 60%;
+        margin-top: 60%;
         right: 0;
 
+    }
+    .img-my{
+        width: 100%;
     }
     .description-1 {
         font-size: 13px;
