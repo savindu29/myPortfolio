@@ -107,8 +107,10 @@ form{
 
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 680px){
 
-
+    .details{
+        font-size: 15px;
+    }
 
 }
