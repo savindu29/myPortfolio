@@ -50,6 +50,10 @@
 .navbar-toggler-icon{
     background-color: transparent!important;
 }
+.navbar-toggler,.navbar-toggler:focus{
+    outline: none;
+    
+}
 .wave{
     position: absolute;
     bottom: -10vh;
