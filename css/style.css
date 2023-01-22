@@ -352,9 +352,9 @@
 @media screen and (max-width: 430px){
     .astroman{
         width :40%;
-        animation: none;
+        /*animation: ;*/
         position: absolute;
-        margin-top: 60%;
+        margin-top: 50%;
         right: 0;
 
     }
