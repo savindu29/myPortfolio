@@ -22,11 +22,11 @@
     margin-right: 50px;
 }
 .bg-light{
-    background-color: rgba(0, 0, 0,0.6) !important;
+    background-color: rgba(0, 0, 0, 0.87) !important;
 
 }
 .nav-link{
-    color: #a4a3a3 !important;
+    color: #a6a6a6 !important;
 }
 .navbar-brand{
     font-weight: bold;
@@ -52,7 +52,7 @@
 }
 .navbar-toggler,.navbar-toggler:focus{
     outline: none;
-    
+
 }
 .wave{
     position: absolute;
