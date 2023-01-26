@@ -13,6 +13,7 @@
 
 .nav-bar{
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 3;
     font-family: sans-serif;
@@ -22,7 +23,7 @@
     margin-right: 50px;
 }
 .bg-light{
-    background-color: rgba(0, 0, 0, 0.9) !important;
+    background: rgba(0, 0, 0, 0.85) !important;
 
 }
 .nav-link{
@@ -368,13 +369,15 @@
 
 @media screen and (max-width: 430px){
     .astroman{
-        width :40%;
-        /*animation: ;*/
-        position: absolute;
-        margin-top: 50%;
-        right: 0;
+        /*width :40%;*/
+        animation: none ;
+        display: none;
+        /*position: absolute;*/
+        /*margin-top: 50%;*/
+        /*right: 0;*/
 
     }
+
     #short-description{
         font-size: 15px;
     }
