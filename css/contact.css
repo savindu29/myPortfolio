@@ -33,9 +33,10 @@ form{
     justify-content: center;
 }
 .contact-heading {
-   margin: 30px 0 40px 0;
+   margin: 30px 0 70px 0;
 
 }
+
 
 .footer {
 
@@ -52,10 +53,10 @@ form{
 
 }
 .contact-heading>h1>span{
-    background-color: rgba(255, 255, 255, 0.47);
+    /*background-color: rgba(255, 255, 255, 0.47);*/
     padding: 10px 15px;
     border-radius: 10px;
-    color: black;
+    color: #ffffff;
 }
 .personal-details>div{
     margin-bottom: 30px;
