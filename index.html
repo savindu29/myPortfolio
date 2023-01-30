@@ -480,10 +480,10 @@
                         <h2>Contact Me</h2><br>
                     </div>
 
-                    <form class="row g-3 needs-validation" novalidate action="https://formsubmit.co/savindu329@.com" method="POST">
+                    <form class="row g-3 needs-validation" novalidate action="https://formsubmit.co/savindu329@gmail.com" method="POST">
                         <div class="row form-rows ">
                             <label for="full-name" class="form-label">Full name</label>
-                            <input type="text" placeholder="Full Name" class="form-control" id="full-name"  required>
+                            <input type="text" name="Full Name" placeholder="Full Name" class="form-control" id="full-name"  required>
                             <div class="invalid-feedback">
                                 Please Enter Name
                             </div>
@@ -493,8 +493,8 @@
                         </div>
 
                         <div class="row form-rows">
-                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address" required>
+                            <label for="email-address" class="form-label">Email address</label>
+                            <input type="email" name="Email" class="form-control" id="email-address" placeholder="Email Address" required>
                             <div class="invalid-feedback">
                                 Please Enter E-mail
                             </div>
@@ -505,19 +505,20 @@
 
                         <div class="row form-rows ">
                             <label for="mobile-number" class="form-label">Mobile Number</label>
-                            <input type="text" class="form-control" id="mobile-number"  >
+                            <input type="text" name="Mobile" class="form-control" id="mobile-number"  >
 
                         </div>
 
 
                         <div class="row form-rows">
-                            <label for="validationTextarea" class="form-label">Message</label>
-                            <textarea class="form-control" rows=5 id="validationTextarea" placeholder="Your Message" required></textarea>
+                            <label for="messege" class="form-label">Messege</label>
+                            <textarea name="Messege" class="form-control" rows=5 id="messege" placeholder="Your Message" required></textarea>
                             <div class="invalid-feedback">
-                                Please enter a message in the textarea.
+                                Please enter a messege in the textarea.
                             </div>
                         </div>
-
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_next" value="https://github.com/savindu29/myPortfolio">
 
                         <div class="col-12 text-center">
                             <button class="btn btn-primary" type="submit">Send Message</button>
