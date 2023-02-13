@@ -80,13 +80,11 @@ form{
         margin-bottom: 10px;
     }
 
-    .personal-details>div{
-        margin-bottom: 15px;
-    }
+
     .personal-details{
 
         width: 90%;
-        padding: 20px 0 10px 0;
+        padding: 20px 10px 10px 0;
         height: auto;
         margin-bottom: 15px;
 
@@ -109,7 +107,9 @@ form{
     }
 }
 @media screen and (max-width: 680px){
-
+    .personal-details{
+        padding-left: 10px;
+    }
     .details{
         font-size: 15px;
     }
