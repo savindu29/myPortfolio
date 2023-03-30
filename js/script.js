@@ -1,5 +1,5 @@
 new Typed('#multi-text',{
-    strings : ['&lt;/>',"&lt;/> Front-end","&lt;/> Back-end","&lt;/> Developer","&lt;/> Undergraduate "],
+    strings : ["","Undergraduate", "Full Stack Developer","DevOps Leaner" ],
     // strings : ["      ","      ","      "],
     loop : true,
     typeSpeed : 100,
