@@ -1,0 +1,117 @@
+#contact{
+    color: white;
+    padding: 30px 40px ;
+
+
+}
+.form-control,.form-control:focus{
+    background-color: transparent;
+    color: white;
+
+}
+.contact-form{
+    width:70%;
+    background-color: rgba(162, 162, 162, 0.41);
+    padding:  20px 50px 50px 50px;
+    border-radius: 20px;
+
+
+}
+.contact-right,.contact-left{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.form-rows{
+    margin-bottom: 20px;
+
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.contact-heading {
+   margin: 30px 0 70px 0;
+
+}
+
+
+.footer {
+
+}
+.personal-details{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(162, 162, 162, 0.41);
+    padding:  20px 50px 50px 50px;
+    border-radius: 20px;
+    height: 400px;
+
+
+}
+.contact-heading>h1>span{
+    /*background-color: rgba(255, 255, 255, 0.47);*/
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.personal-details>div{
+    margin-bottom: 30px;
+}
+.contact-icons{
+    width: 50px;
+}
+.contact-container{
+    width: 100%;
+
+}
+@media screen and (max-width: 962px){
+    .form-rows{
+        margin-bottom: 10px;
+    }
+
+    .personal-details>div{
+        margin-bottom: 15px;
+    }
+    .form-rows{
+        margin-bottom: 10px;
+    }
+
+
+    .personal-details{
+
+        width: 90%;
+        padding: 20px 10px 10px 0;
+        height: auto;
+        margin-bottom: 15px;
+
+    }
+    #contact{
+
+        padding: 20px 0;
+
+    }
+    .contact-container{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .contact-form{
+        width:90%;
+        padding:  20px 10px 10px 10px;
+
+
+    }
+}
+@media screen and (max-width: 680px){
+    .personal-details{
+        padding-left: 10px;
+    }
+    .details{
+        font-size: 15px;
+    }
+
+}
